@@ -4,6 +4,7 @@ import time
 def foo(i):
     print('say hi',i)
     while 1:
+        time.sleep(10)
         pass
 
 if __name__ == '__main__':
